@@ -10,7 +10,7 @@ const Fs = ([cF, rF, uF, dF] = ["create", "read", "update", "delete"].map(
   const sirs = [
     {
       service: "web10-docs-note-demo",
-      cross_origins: ["docs.web10.app", "localhost", "docs.localhost", "nathanluan.github.io/Web10-Notes"],
+      cross_origins: ["docs.web10.app", "localhost", "docs.localhost", "nathanluan.github.io"],
     },
   ];
   wapi.SMROnReady(sirs, []);
